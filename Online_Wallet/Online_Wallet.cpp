@@ -6,11 +6,13 @@
 
 
 int main() {
-    ShowCursor(FALSE);
     RegisteringANewUser regUser;
+    ConsoleCursorVisible(50, false);
     showGreeting();
-    registrationAndLoginMenu(regUser);
+    //registrationAndLoginMenu(regUser);
+    //regUser.showInfoUser();
+    //regUser.signupUser();
+    //regUser.addUserCardInfo();
     mainMenu(regUser);
-    
-	
+    //regUser.changeBankName();
 }
